@@ -65,10 +65,10 @@ lam %>%
    labs(x = "Stipe mass (kg)", y = "Stipe length (cm)")
 # Drawing graphs
  
- lam_exe <- lam %>% 
-   select(site) %>% 
-   mutate(total_length_half=total_length/2)
- na.omit %>%
+ total_lenth_half <- lam %>% 
+   mutate(total_length_half=total_length / 2) %>% 
+   filter(total_length_half < 100) %>% 
+   select(site,total_length_half) 
    
  #Create a new data frame from the `laminaria` dataset that meets the following criteria: contains only the `site` column and a new column called `total_length_half` containing values that are half of the `total_length`. In this `total_length_half` column, there are no `NA`s and all values are less than 100.
  #think about how the commands should be ordered to produce this data frame!
@@ -83,8 +83,9 @@ lam %>%
  #Use `group_by()` and `summarize()` to find the mean, min, and max blade_length for each site. Also add the number of observations (hint: see `?n`).
 
  lam %>%
-   select(stipe_mass) %>% 
-  filter(stipe_mass==max(stipe_mass))
+   group_by(site) %>% 
+  filter(stipe_mass==max(stipe_mass)) %>% 
+   select(site,region,stipe_length)
 
   #What was the heaviest stipe measured in each site? Return the columns `site`, `region`, and `stipe_length`
  
