@@ -24,7 +24,7 @@ ggplot(chicks, aes(x=Time, y=weight, colour=Diet))+
 #"lm"=linear model
 
 ggplot(chicks, aes(x=Time, y=weight, colour=Diet))+
-  geom_point(colour="red")+
+  geom_point(colour="pink")+
   geom_line(aes(group=Chick))
 
 ggplot(chicks, aes(x=Time, y=weight, colour=Diet))+
@@ -48,7 +48,7 @@ library(ggpubr)
 ggplot(chicks, aes(x=Time, y=weight, colour=Diet))+
   geom_point()+
   geom_smooth(method="lm")+
-  facet_wrap(~Diet, ncol=2)
+  facet_wrap(~Diet, ncol=4)
 #ncol is the number of columns 
 #facet_wrap splited the graph that each diet have its own graph
 
