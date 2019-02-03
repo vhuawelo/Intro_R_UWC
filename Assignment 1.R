@@ -109,7 +109,11 @@ lma3 <- plot4 <- ggplot(lam, aes(x=region, y=stipe_length))+
   geom_boxplot(aes(fill=region))+
   labs(x="regoin", y="stipe_length (cm)")
 
-
+# [A.A]
+# SJOH! NIce graphs. well done
+# Could add more comments throughout the script
+# Lack hypothesis....
+# Neat script
 
 
 

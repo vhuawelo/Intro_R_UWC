@@ -18,3 +18,7 @@ ggplot(data=temp2, aes(x=month,y=temp))+
   geom_line()+
   facet_wrap(-site,nrow=3)+
   labs(x="month",y="temperature(")
+
+# Neat script
+# Lack of comments
+# Comments shows a clear disscription of each line of code and will improve your understanding and marks

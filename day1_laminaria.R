@@ -89,5 +89,11 @@ lam %>%
 
   #What was the heaviest stipe measured in each site? Return the columns `site`, `region`, and `stipe_length`
  
-  
+
+ # [A.A]
+ # Neat script
+ # Some comments within the script, more comments would increase your marks
+ # Neat script
+ # Shows some undertanding of the code
+ # Script runs
  

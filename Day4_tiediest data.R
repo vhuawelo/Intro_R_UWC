@@ -52,4 +52,7 @@ ggplot(SACTN_depth_mean, mapping = aes(x = depth, y = mean_temp)) +
               sd_temp = sd(temp, na.rm = TRUE)) #use summarise function to calculate mean and sd. 
   
 
-
+# [A.A]
+# PLaying with the functions and trying new things will only improve the marks and the code used
+  # Neat script
+  # Lack of coomments throughtout the script

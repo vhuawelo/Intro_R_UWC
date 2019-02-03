@@ -14,3 +14,9 @@ library(ggsn)
 #2.Convert the laminaria csv file to R formatted dataset with just one line of code:
 laminaria<- read.csv("laminaria.csv")
 save(laminaria, file = "laminaria.Rdata")
+
+
+# [A.A]
+# very brief discriptions
+# Moe infomation may be found in several pdf documents
+# Neat
