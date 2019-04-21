@@ -139,3 +139,10 @@ iris_pearson <- cor(iris_sub)
 iris_pearson
 
 corrplot(iris_pearson, method = "circle")
+
+# Script runs
+# Several thinhs are missing in this script
+# Missing details too
+# Check the proper interpretation for the hypothesis
+# Where are the other biostats scripts?
+

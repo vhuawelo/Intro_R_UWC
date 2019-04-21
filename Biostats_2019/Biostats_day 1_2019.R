@@ -171,3 +171,11 @@ plt4 <- ggplot(data = iris, aes(x = Species, fill = Species)) +
   scale_fill_few()
 
 ggarrange(plt1, plt2, plt3, plt4, nrow = 2, ncol = 2, labels = "AUTO")
+
+
+
+# MIssing some bits of code done as exercises in class
+# Code is neat
+# A bit more comments will help the marker with regards to detecting wether or not you understand the code
+# and that you are not just simply coping and pasting
+# Try new things

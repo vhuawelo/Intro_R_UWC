@@ -158,3 +158,6 @@ summary(aov(weight ~ Diet + as.factor(Time), data = filter(Chicks, Time %in% c(0
 
 summary(aov(weight ~ Diet * as.factor(Time), data = filter(Chicks, Time %in% c(4, 21))))
 
+# Neat and clean sctipt
+# It is good to add comments thoughout the script as mentioned before
+# Improve your marks and R skills by trying different things taught outside of the class

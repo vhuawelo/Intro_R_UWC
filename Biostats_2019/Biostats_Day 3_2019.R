@@ -104,3 +104,8 @@ ggplot(data = ecklonia, aes(x = stipe_length, y = frond_length)) +
 
 corrplot(ecklonia_pearson, method = "circle")
 
+# The same applies to this script as the other two script
+# Did you just copy? 
+# Do you know what this code means?
+# This will all reflect in the exam so please do go through it and make sure you understannd what the code means
+# Nontheless the script i neat and everything runs
